@@ -3,7 +3,7 @@ import './App.css';
 import Form from './Form';
 import Map from './Map';
 
-const App = () => {
+const App = () => {//
   let [lon, setLon] = useState(34.8324376);// ברירת מחדל
   let [lat, setLat] = useState(32.0873899);// ברירת מחדל
 // פונקציה לעדכון המיקום הנבחר
